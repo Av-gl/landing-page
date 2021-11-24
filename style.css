@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -10,7 +11,6 @@ body {
     height: 550px;
     padding-left: 225px;
     padding-right: 225px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .header-logo {
@@ -36,11 +36,11 @@ body {
     margin-top: 20px;
 }
 
-.hcontent {
+.hcontent, .img-text {
     display: flex;
 }
 
-.hleft, .hright{
+.hleft, .hright, .info{
     display: flex;
     flex-direction: column;
 }
@@ -52,9 +52,9 @@ body {
 }
 
 .hleft button {
-    background-color:rgb(49, 130, 223);
+    background-color: #3882F6;
     width: 120px;
-    height: 30px;
+    height: 40px;
     color: white;
     margin-top: 5px;
     border-radius: 10px;
@@ -79,7 +79,41 @@ body {
     padding-bottom: 10px;
 }
 
-img {
+.hright img {
     color: rgb(255, 255, 255);
 }
 
+.info {
+    height: 550px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937; 
+    padding-top:60px;
+    text-align: center;
+}
+
+.img-text {
+    column-gap: 60px;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.sec-img {
+    border: 5px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.img-text .sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+    height: 277px;
+    row-gap: 10px;
+}
