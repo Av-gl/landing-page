@@ -40,7 +40,7 @@ body {
     display: flex;
 }
 
-.hleft, .hright, .info{
+.hleft, .hright, .info, .quote{
     display: flex;
     flex-direction: column;
 }
@@ -105,7 +105,7 @@ body {
     border: 5px solid #3882F6;
     height: 200px;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .img-text .sec {
@@ -116,4 +116,23 @@ body {
     width: 210px;
     height: 277px;
     row-gap: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 420px;
+    justify-content: center;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-left: 550px;
+}
+
+.quote .author {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 1080px;
 }
