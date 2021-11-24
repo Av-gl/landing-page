@@ -36,16 +36,16 @@ body {
     margin-top: 20px;
 }
 
-.hcontent, .img-text {
+.hcontent, .img-text, .action .box {
     display: flex;
 }
 
-.hleft, .hright, .info, .quote{
+.hleft, .hright, .info, .quote, .action{
     display: flex;
     flex-direction: column;
 }
 
-.title {
+.hleft .title {
    font-size: 48px;
    font-weight:bolder; 
    color: #F9FAF8;
@@ -135,4 +135,49 @@ body {
     font-size: 24px;
     font-weight: bolder;
     margin-left: 1080px;
+}
+
+.action {
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .box {
+    height: 170px;
+    background-color: #3882F6;
+    width: 1000px;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action .box .text .title {
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.action .box .text .content {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action .box .sign-up {
+    border: 1px solid #F9FAF8;
+    width: 150px;
+    height: 40px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.action .box .sign-up button {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    color: #F9FAF8;
+    font-size: medium;
 }
