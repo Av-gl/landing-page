@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.hcontent {
+    column-gap: 40px;
+}
+
 .header {
     background-color: #1F2937;
     height: 550px;
@@ -70,13 +74,16 @@ body {
     justify-content: center;
     margin-left:auto;
     background-color:grey;
-    width: 700px;
+    width: 650px;
     height: 350px;
     text-align: center;
+    flex: 0 1 auto;
+    margin-left: auto ;
 }
 
 .hleft {
     justify-content: center;
+    width: 450px;
 }
 
 .hleft div {
@@ -127,20 +134,21 @@ body {
     background-color: #E5E7EB;
     height: 420px;
     justify-content: center;
+    text-align: center;
 }
 
 .quote .text {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    margin-left: 500px;
     font-weight: 100;
+    padding-right: 50px;
 }
 
 .quote .author {
     font-size: 24px;
-    font-weight: bolder;
-    margin-left: 1080px;
+    font-weight: 900;
+    padding-left: 400px;
 }
 
 .action {
